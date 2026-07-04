@@ -159,6 +159,25 @@ Synthesis summary for **series-parallel-only transistor network experiments**.
 
 ---
 
+# script/
+
+Source environment for generating PMOS logic-to-transistor-network synthesis
+results.
+
+The generator supports:
+
+- Canonical truth-table enumeration over an inclusive index range
+- Direct truth-table solving with `--mode tt --truth_table <bitstring>`
+- Configurable minimum and maximum transistor bounds
+- Z3-based topology search and gate-cost minimization
+
+The truth-table bitstring must contain only `0` and `1`, and its length must
+equal `2^num_inputs`.
+
+Build and usage instructions are provided in [`script/README.md`](script/README.md).
+
+---
+
 # Notes
 
 ## DP vs. Op
