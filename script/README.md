@@ -37,17 +37,18 @@ ldd ./logic_generator | grep libz3
 
 ## Build
 
-From the L2L repository root:
+From the repository root:
 
 ```bash
-cd /home/bgkang/2025/L2L/script/generator
-
+cd script/generator
 g++ -std=c++17 -O3 \
     logic_generator.cpp logic_smt_utils.cpp truth_table_filtering.cpp \
     -lz3 -pthread -o logic_generator
 ```
 
-Display command-line help:
+## Usage
+
+Display the command-line help:
 
 ```bash
 ./logic_generator --help
