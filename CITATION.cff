@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+type: software
+title: "L2L: Logic to Layout Exploration of Standard Cell Library Design"
+authors:
+  - family-names: Kang
+    given-names: Byeonggon
+  - family-names: Mishchenko
+    given-names: Alan
+  - family-names: Fujita
+    given-names: Masahiro
+  - family-names: Lin
+    given-names: Bill
+  - family-names: Cheng
+    given-names: Chung-Kuan
+repository-code: "https://github.com/b8kang/L2L-Logic_to_Layout_Exploration"
+url: "https://b8kang.github.io/L2L-Logic_to_Layout_Exploration/"
+preferred-citation:
+  type: conference-paper
+  title: "L2L: Logic to Layout Exploration of Standard Cell Library Design"
+  authors:
+    - family-names: Kang
+      given-names: Byeonggon
+    - family-names: Mishchenko
+      given-names: Alan
+    - family-names: Fujita
+      given-names: Masahiro
+    - family-names: Lin
+      given-names: Bill
+    - family-names: Cheng
+      given-names: Chung-Kuan
+  conference: "Design Automation Conference"
+  year: 2026
